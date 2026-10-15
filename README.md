@@ -1,18 +1,84 @@
-# maxmonice-portfolio
+# 💻 Rafael Carlos — Developer Portfolio
 
-## Coding activity heatmaps
+A terminal-inspired personal portfolio showcasing my projects, technical skills, and journey as a Computer Science student aspiring to become a Backend Developer.
 
-The portfolio displays the public contribution history for GitHub and the public submission calendar for LeetCode. The browser requests `/api/coding-activity`; the Vercel serverless function queries GitHub's official GraphQL API and LeetCode's unofficial GraphQL endpoint, independently, and caches the response for five minutes. Provider errors, missing configuration, and rate limits are shown in the corresponding card rather than replaced with sample activity.
+## 🚀 About Me
 
-### Configure locally
+Hi! I'm Rafael Carlos, a Bachelor of Science in Computer Science (BSCS) student interested in software development, problem-solving, and building reliable backend systems.
 
-1. Copy `.env.example` to `.env` and add a GitHub token. Keep `.env` private; it is excluded from Git.
-2. Create a GitHub personal access token from **Settings → Developer settings → Personal access tokens**. Use a fine-grained token with **Profile: Read-only** permission, or a classic token with only the `read:user` scope; repository access is not needed. The token is only read by the serverless function and is never sent to the browser.
-3. Confirm `GITHUB_USERNAME` and `LEETCODE_USERNAME` match your public profile usernames.
-4. Install the Vercel CLI if needed, then run `vercel dev` from the project directory. Open the local URL it prints; opening `index.html` directly will not provide the `/api` route.
+I'm continuously improving my programming skills through hands-on projects, algorithmic problem-solving, and independent learning.
 
-For a Vercel deployment, add `GITHUB_USERNAME`, `GITHUB_TOKEN`, and `LEETCODE_USERNAME` as project environment variables for each environment, then redeploy. Never set the GitHub token as a client-side variable or commit a real `.env` file.
+My primary focus is **Java, Object-Oriented Programming (OOP), Data Structures and Algorithms (DSA), SQL, and backend development**.
 
-### Validation
+## 🛠️ Tech Stack
 
-This project has no package manifest or existing test runner. Check JavaScript syntax with `node --check script.js` and `node --check api/coding-activity.js`. Verify live data by running `vercel dev` with the environment variables configured and checking `/api/coding-activity`; if an upstream is unavailable or rate-limited, its heatmap reports that status.
+### Programming Languages
+- Java
+- SQL
+- C#
+
+### Tools and Technologies
+- Git and GitHub
+- Visual Studio Code
+- MySQL
+- XAMPP
+
+### Currently Learning
+- Advanced Java and OOP
+- Data Structures and Algorithms
+- Database design and SQL
+- Software architecture and backend development
+
+## 📂 Featured Projects
+
+### 🏦 Polarity Bank
+A console-based banking application built with Java and MySQL, demonstrating object-oriented programming, database connectivity, and basic banking operations.
+
+**Technologies:** Java, JDBC, MySQL
+
+- Account management
+- Deposit and withdrawal operations
+- PIN-based authentication
+- Database integration
+
+### 🎮 Ball Brawl Arena
+A 2D ball-battle game built with C# and Windows Forms. The project focuses on object-oriented design, game mechanics, and creating an extensible foundation for future features.
+
+**Technologies:** C#, .NET, Windows Forms
+
+- Autonomous ball movement and collisions
+- Health and damage mechanics
+- Unique character abilities
+- Expandable game systems
+
+## 🧠 Problem Solving
+
+I practice programming problems to strengthen my understanding of algorithms, data structures, and writing efficient solutions.
+
+Topics I study include:
+
+- Arrays and strings
+- HashMaps and sets
+- Stacks and queues
+- Linked lists
+- Binary search
+- Two pointers
+- Recursion and dynamic programming
+
+## 🎯 Goals
+
+- Build a strong portfolio for software development internships.
+- Improve my Java and backend development skills.
+- Develop projects that demonstrate practical programming knowledge.
+- Strengthen my problem-solving and algorithmic thinking.
+- Explore Docker, AWS, and other backend technologies.
+
+## 📫 Connect With Me
+
+- **GitHub:** [@maxmonice](https://github.com/maxmonice)
+- **LeetCode:** [View My Profile](https://leetcode.com/maxmonice)
+- **Facebook:** [Polardog27](https://www.facebook.com/polardog27)
+
+---
+
+*Always learning. Always building. Always improving.*
